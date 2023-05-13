@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:src="@drawable/ic_baseline_person_24"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/buttonGurup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/callDeltail"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#1F1B24"
+                android:src="@drawable/ic_baseline_call_24"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/smsDeltail"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#1F1B24"
+                android:src="@drawable/ic_baseline_textsms_24"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/mailDeltail"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#1F1B24"
+                android:src="@drawable/ic_baseline_mail_24"></ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/texts"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/x"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background2">
+
+        <TextView
+            android:id="@+id/nameDetail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/numberDetail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/nameDetail"
+            android:gravity="center"
+            android:text="Number"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

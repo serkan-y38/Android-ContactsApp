@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/moreBarDetail"
+        android:title="add"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item android:title="Help"
+                android:id="@+id/moreBarHelpDetail"
+                android:icon="@drawable/ic_baseline_help_center_24"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <item android:title="Delete Permanently"
+                android:id="@+id/moreBarDeleteDetail"
+                android:icon="@drawable/ic_baseline_delete_forever_24"
+                app:showAsAction="ifRoom">
+            </item>
+
+        </menu>
+
+    </item>
+
+
+</menu>
