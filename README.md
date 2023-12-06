@@ -1,5 +1,6 @@
 # ContactsApp
 
+#### This project is my first android project. It's special for me :)
 
 https://github.com/serkan-y38/ContactsApp/assets/96957200/6f0c4680-bea6-4474-a356-17dea292a45f
 
